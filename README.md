@@ -1,4 +1,4 @@
-<img align="right" height="200" src="https://media.tenor.com/oqm9FwGu0OwAAAAi/chibi-anime-boy.gif" />
+  <img align="right" height="200" src="https://media.tenor.com/oqm9FwGu0OwAAAAi/chibi-anime-boy.gif"  />
 
 <h1 align="left">👋Hi, I'm Yogamuz!</h1>
 
@@ -40,7 +40,7 @@
 <a href="https://discord.com/users/482923279430975491" target="_blank">
   <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="discord" />
 </a>
-<a href="https://linkedin.com/prayogo" target="_blank">
+<a href="https://www.linkedin.com/in/prayogo-muz-058a62250/" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white alt="linkedin" />
 </a>
 <a href="https://instagram.com/yogamuz" target="_blank">

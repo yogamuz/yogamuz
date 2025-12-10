@@ -1,6 +1,9 @@
   <img align="right" height="200" src="https://media.tenor.com/oqm9FwGu0OwAAAAi/chibi-anime-boy.gif"  />
 
-<h1 align="left">👋Hi, I'm Yogamuz!</h1>
+<p align="left" style="font-size: 2.2rem; font-weight: bold;">
+  👋 Hi, I'm Yogamuz!
+</p>
+
 
 
 ###

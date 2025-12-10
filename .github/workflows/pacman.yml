@@ -2,7 +2,7 @@ name: Generate pacman animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "* */12 * * *"
   workflow_dispatch:
   push:
     branches:
@@ -13,30 +13,25 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Increase Node.js memory limit
-        run: echo "NODE_OPTIONS=--max-old-space-size=4096" >> $GITHUB_ENV
-
-      - name: Generate pacman SVG
+      - name: Generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      - name: Prepare output folder
+      # ⭐ Tambahkan langkah ini
+      - name: Move output to dist folder
         run: |
           mkdir -p dist
           mv pacman-contribution-graph.svg dist/pacman-contribution-graph.svg
-          mv pacman-contribution-graph-dark.svg dist/pacman-contribution-graph-dark.svg
+          mv pacman-contribution-graph-dark.svg dist/pacman-contribution-graph-dark.svg || true
 
-      - name: Push to pacman-output branch
+      - name: Push pacman-contribution-graph.svg to pacman-output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: pacman-output
-          build_dir: dist
+          target_branch: pacman-output   # ⭐ Branch baru agar tidak bentrok dengan snake
+          build_dir: dist                # ⭐ Pastikan folder dist sudah ada
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

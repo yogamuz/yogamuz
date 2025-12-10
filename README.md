@@ -1,8 +1,6 @@
-  <h1>👋 Hi, I'm Yogamuz!</h1>
   <img align="right" height="200" src="https://media.tenor.com/oqm9FwGu0OwAAAAi/chibi-anime-boy.gif"  />
 
-
-
+  <h1>👋 Hi, I'm Yogamuz!</h1>
 
 ###
 
@@ -54,6 +52,7 @@
 </div>
 
 ###
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/yogamuz/yogamuz/pacman-output/pacman-contribution-graph-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/yogamuz/yogamuz/pacman-output/pacman-contribution-graph.svg">

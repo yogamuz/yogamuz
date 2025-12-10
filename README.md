@@ -6,7 +6,7 @@
 
 ###
 
-<p align="left">👨‍💻 Fullstack Web Developer documenting my growth and experiences in tech  <br>🎓 Computer Science student at Bina Sarana Informatika  <br>🌿 Continuously expanding my knowledge through #learninginpublic  <br>🌨️ Currently focusing on mastering modern Web Development and best practices</p>
+<p align="left">👨‍💻 Fullstack Web Developer documenting my growth and experiences in tech  <br>🎓 Information Technology student at Bina Sarana Informatika  <br>🌿 Continuously expanding my knowledge through #learninginpublic  <br>🌨️ Currently focusing on mastering modern Web Development and best practices</p>
 
 ###
 
